@@ -90,7 +90,7 @@ Pipeline::pipe(10)->through(10); // InvalidArgumentException
 If the `build` method was used to create a pipeline, the initial value has to be passed to then `run` method. Failing to do so
 will result in a `RuntimeException`.
 
-```
+```php
 Pipeline::build()->through(function ($i) { return $i + 10; })->run() // RuntimeException
 ```
 
