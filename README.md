@@ -1,5 +1,7 @@
 # PHP Pipeline
 
+[![Build Status](https://travis-ci.org/ksassnowski/pipeline.svg?branch=master)](https://travis-ci.org/ksassnowski/pipeline)
+
 A simple Pipeline implementation for PHP.
 
 ## Summary
