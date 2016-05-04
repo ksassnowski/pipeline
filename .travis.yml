@@ -9,4 +9,8 @@ before_script:
   - travis_retry composer self-update
   - travis_retry composer install --prefer-source --no-interaction --dev
 
-script: phpunit
+script: 
+  - phpunit --coverage build/logs/clover.xml
+
+after_success:
+  - CODECLIMATE_REPO_TOKEN=$CODE_CLIMATE_TOKEN ./vendor/bin/test-reporter
