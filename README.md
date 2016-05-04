@@ -1,6 +1,8 @@
 # PHP Pipeline
 
 [![Build Status](https://travis-ci.org/ksassnowski/pipeline.svg?branch=master)](https://travis-ci.org/ksassnowski/pipeline)
+[![Code Climate](https://codeclimate.com/github/ksassnowski/pipeline/badges/gpa.svg)](https://codeclimate.com/github/ksassnowski/pipeline)
+[![Test Coverage](https://codeclimate.com/github/ksassnowski/pipeline/badges/coverage.svg)](https://codeclimate.com/github/ksassnowski/pipeline/coverage)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/8ae76ac2-6bf7-4723-b2bc-4ad61e0e8381/mini.png)](https://insight.sensiolabs.com/projects/8ae76ac2-6bf7-4723-b2bc-4ad61e0e8381)
 
 A simple Pipeline implementation for PHP.
