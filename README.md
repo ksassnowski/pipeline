@@ -1,6 +1,7 @@
 # PHP Pipeline
 
 [![Build Status](https://travis-ci.org/ksassnowski/pipeline.svg?branch=master)](https://travis-ci.org/ksassnowski/pipeline)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/8ae76ac2-6bf7-4723-b2bc-4ad61e0e8381/mini.png)](https://insight.sensiolabs.com/projects/8ae76ac2-6bf7-4723-b2bc-4ad61e0e8381)
 
 A simple Pipeline implementation for PHP.
 
