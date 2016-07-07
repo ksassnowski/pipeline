@@ -21,7 +21,7 @@ class Pipeline
     /**
      * Pipeline constructor.
      *
-     * @param $value The value that should be piped through all steps.
+     * @param mixed $value The value that should be piped through all steps.
      * @param array $steps
      */
     private function __construct($value = null, $steps = [])
@@ -54,7 +54,7 @@ class Pipeline
     /**
      * Add a step to the pipeline.
      * 
-     * @param $next The function that should be executed for this step.
+     * @param callable $next The function that should be executed for this step.
      * @return $this
      */
     function through($next)
